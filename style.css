@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+#gameBox {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: red;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #00c6ff;
+    color: white;
+}
